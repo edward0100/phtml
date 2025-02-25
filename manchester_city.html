@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manchester City</title>
+    <style>
+        body, h2, p {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #1a73e8;
+        }
+
+        nav {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav li {
+            margin: 0 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #1a73e8;
+        }
+
+        .achievements {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        .achievement {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            width: calc(50% - 20px);
+            box-sizing: border-box;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .achievement img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 15px;
+        }
+
+        .achievement p {
+            font-size: 18px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        .achievement:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .achievement {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://img.fcbayern.com/image/upload/f_auto/q_auto/t_cms-16x9-seo/v1689077135/cms/public/images/fcbayern-com/homepage/Saison-23-24/Audi-Summer-Tour/Gegner/230711-audi-summer-tour-gegner-manchester-city.jpg" alt="Man City Logo">
+        <h2>Some Manchester City Achievements</h2>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="achievements">
+        <div class="achievement">
+            <img src="https://barcauniversal.com/wp-content/uploads/2022/02/fbl-eur-c1-draw-scaled.jpg" alt="UCL">
+            <p>UEFA Champions League - 1</p>
+        </div>
+        <div class="achievement">
+            <img src="https://www.irishfa.com/media/33958/uefa-super-cup-2020-12.png" alt="Super Cup">
+            <p>Super Cup - 1</p>
+        </div>
+        <div class="achievement">
+            <img src="https://en.africatopsports.com/wp-content/uploads/2024/09/20240920_232313.jpg" alt="Intercontinental Cup">
+            <p>Caraboa Cup - 8</p>
+        </div>
+        <div class="achievement">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiyMV2IRbw0ha5qc3vkbRsifgAzVlGasv57A&s" alt="FIFA Club World Cup">
+            <p>FIFA Club World Cup - 1</p>
+        </div>
+        <div class="achievement">
+            <img src="https://statico.sportskeeda.com/wp-content/uploads/2014/04/la-liga-trophy-2168909.jpg?w=640" alt="La Liga">
+            <p>Premier League - 10</p>
+        </div>
+        <div class="achievement">
+            <img src="https://www.fcbarcelona.com/fcbarcelona/photo/2021/04/12/c1adf10c-bee5-4e5b-8ba0-adc79940b182/Copa-del-Rey.jpg" alt="Copa del Rey">
+            <p>FA Cup - 7</p>
+        </div>
+    </div>
+</body>
+</html>

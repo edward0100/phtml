@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        /* Reset some styles for a clean base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        header h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #ccc;
+        }
+
+        nav {
+            background-color: #444;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            margin: 0 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #1a73e8;
+            transform: scale(1.1);
+        }
+
+        /* About Section Styling */
+        .about-container {
+            width: 80%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .about-container h3 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .about-container p {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .about-container p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Responsive Design for smaller screens */
+        @media (max-width: 768px) {
+            header h2 {
+                font-size: 28px;
+            }
+
+            .about-container {
+                width: 90%;
+                padding: 30px;
+            }
+
+            nav a {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h2>About Us</h2>
+        <p>Your gateway to football knowledge from around the world</p>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <div class="about-container">
+        <h3>Our Mission</h3>
+        <p>
+            We are dedicated to promoting football knowledge to every corner of the world, 
+            ensuring that fans, players, and coaches alike have the resources to deepen their 
+            understanding of the beautiful game. Whether it's learning about football history, 
+            keeping up with the latest tournaments, or exploring the statistics and achievements 
+            of top clubs and players, we aim to be the go-to destination for football enthusiasts.
+        </p>
+
+        <h3>What We Do</h3>
+        <p>
+            Our platform offers insightful content, including detailed club achievements, player 
+            statistics, team histories, and current football trends. We believe that by sharing 
+            this information, we contribute to the growth of the sport and its global community. 
+            We cover all the major football leagues and tournaments, and provide easy-to-understand 
+            analysis to help fans and players of all levels enjoy the game more.
+        </p>
+
+        <h3>Our Vision</h3>
+        <p>
+            We aspire to build a community of passionate football fans who are not only excited 
+            about the game, but also knowledgeable about its intricacies. By fostering a deeper 
+            understanding of football, we hope to elevate the level of engagement within the sport, 
+            from grassroots to the professional level.
+        </p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Football Clubs Achievements</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        header h2 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 10px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #666;
+            border-radius: 5px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .football-club {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px; /* Increased the width of the box */
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s ease;
+            margin-bottom: 30px; /* Added margin for spacing between rows */
+        }
+
+        .football-club:hover {
+            transform: scale(1.05);
+        }
+
+        .football-club img {
+            width: 100%;
+            height: 200px; /* Set a fixed height for the images */
+            object-fit: cover; /* Ensures images maintain aspect ratio while filling the space */
+            border-radius: 10px;
+        }
+
+        .football-club h4 {
+            font-size: 1.2rem;
+            margin-top: 15px;
+            color: #333;
+        }
+
+        .football-club button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+            transition: background-color 0.3s;
+        }
+
+        .football-club button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Responsive Layout */
+        @media (max-width: 1024px) {
+            .container {
+                justify-content: center;
+            }
+            .football-club {
+                width: 280px; /* Slightly smaller width for medium screens */
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                justify-content: space-between;
+            }
+            .football-club {
+                width: 100%; /* Full width on smaller screens */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>Top Football Clubs</h2>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="football-club">
+            <img src="https://th.bing.com/th/id/R.c741810f9c33cf1dcc57c99d72e0a88f?rik=cpqlbe4biPOuAA&riu=http%3a%2f%2fwww.freelogovectors.net%2fwp-content%2fuploads%2f2018%2f03%2freal_madrid_cub_de_futbol-logo.png&ehk=0leBxEk7hblAGXb64NVnUz83tfO1n%2bVtT9C3rBadqUM%3d&risl=&pid=ImgRaw&r=0" alt="Real Madrid Logo">
+            <h4>Real Madrid</h4>
+            <a href="real_madrid.html"><button>Check Achievements</button></a>
+        </div>
+
+        <div class="football-club">
+            <img src="https://th.bing.com/th/id/OIP.4eLwPDOhLiS4DWexutPB7AHaEK?rs=1&pid=ImgDetMain" alt="FC Barcelona Logo">
+            <h4>FC Barcelona</h4>
+            <a href="barcelona.html"><button>Check Achievements</button></a>
+        </div>
+
+        <div class="football-club">
+            <img src="https://th.bing.com/th/id/R.218e39f9fbb1a3d112834b314142d1bb?rik=nSeNbeCa9MzE4Q&pid=ImgRaw&r=0" alt="Liverpool FC Logo">
+            <h4>Liverpool FC</h4>
+            <a href="liverpool.html"><button>Check Achievements</button></a>
+        </div>
+
+        <div class="football-club">
+            <img src="https://th.bing.com/th/id/OIP.NPpxt--PLXgSDRu2nxJP_QHaHa?rs=1&pid=ImgDetMain" alt="FC Bayern Munich Logo">
+            <h4>FC Bayern Munich</h4>
+            <a href="bayern_munich.html"><button>Check Achievements</button></a>
+        </div>
+
+        <div class="football-club">
+            <img src="https://th.bing.com/th/id/OIP.VRwLtEA-ttAWZA1G7djEEAHaEK?rs=1&pid=ImgDetMain" alt="Juventus Logo">
+            <h4>Juventus</h4>
+            <a href="juventus.html"><button>Check Achievements</button></a>
+        </div>
+
+        <div class="football-club">
+            <img src="https://th.bing.com/th/id/OIP.SwT_VqaPuVNrP11KVxdGDAHaEK?rs=1&pid=ImgDetMain" alt="Manchester City Logo">
+            <h4>Manchester City</h4>
+            <a href="manchester_city.html"><button>Check Achievements</button></a>
+        </div>
+    </div>
+
+</body>
+</html>
